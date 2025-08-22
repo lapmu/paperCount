@@ -3,11 +3,11 @@ import styled from "styled-components";
 function App() {
   const runData: string[][] = [
     ["", "", ""],
-    ["NN", "4B2P", "4B"],
-    ["HH", "3B1P", "2B4P"],
-    ["LL", "3B1P", "2B4P"],
+    ["NN", "4B2P", "3B1P"],
+    ["HH", "3B1P", "2B2P"],
+    ["LL", "3B1P", "2B2P"],
     ["ALL", "10B4P", "9B3P"],
-    ["K", "27K", "12K"],
+    ["K", "27K", "10K"],
   ];
 
   const pqData: string[][] = [
